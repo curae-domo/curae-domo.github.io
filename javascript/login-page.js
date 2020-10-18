@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "12345" && password === "password") {
         console.log("You have successfully logged in.");
-        window.location = "../html/patientList.html";
+        window.location = "html/patientList.html";
     } else {
         loginErrorMsg.style.opacity = 1;
     }
